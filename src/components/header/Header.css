@@ -1,0 +1,32 @@
+.header{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_menu_items{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header_menu_item{
+    display: flex;
+    font-family: 'Inter';
+    gap: 8px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5C5C5C;
+    cursor: pointer;
+    
+}
+.header_menu_item:hover{
+    color: black;
+    
+}
+
